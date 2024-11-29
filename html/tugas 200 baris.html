@@ -1,0 +1,213 @@
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tugas HTML 200 Baris</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4b1eec;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #dfd9d9;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: rgb(112, 102, 146);
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .image-section {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"], input[type="email"], input[type="number"], select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Tugas HTML 200 Baris</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+    <!-- Section 1: Introduction -->
+    <section id="home" class="content">
+        <h2>Selamat datang di Tugas HTML</h2>
+        <p>Ini adalah contoh tugas HTML yang mencakup berbagai elemen penting dalam HTML. Anda akan menemukan berbagai komponen yang digunakan dalam pembuatan halaman web.</p>
+    </section>
+
+    <!-- Section 2: About -->
+    <section id="about" class="content">
+        <h2>Tentang Kami</h2>
+        <p>Di sini Anda dapat mempelajari lebih lanjut tentang kami dan apa yang kami lakukan.</p>
+        <div class="image-section">
+            <img src="https://via.placeholder.com/400x200" alt="Gambar Kami" width="400" height="200">
+        </div>
+    </section>
+
+    <!-- Section 3: Services -->
+    <section id="services" class="content">
+        <h2>Layanan Kami</h2>
+        <ul>
+            <li>Layanan Web Development</li>
+            <li>Desain Grafis</li>
+            <li>SEO Optimization</li>
+            <li>Konsultasi IT</li>
+        </ul>
+    </section>
+
+    <!-- Section 4: Tabel -->
+    <section class="content">
+        <h2>Daftar Harga Layanan</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nama Layanan</th>
+                    <th>Harga</th>
+                    <th>Deskripsi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Web Development</td>
+                    <td>Rp5.000.000</td>
+                    <td>Membangun situs web lengkap dengan desain responsif.</td>
+                </tr>
+                <tr>
+                    <td>Desain Grafis</td>
+                    <td>Rp2.000.000</td>
+                    <td>Desain logo, brosur, dan materi pemasaran.</td>
+                </tr>
+                <tr>
+                    <td>SEO Optimization</td>
+                    <td>Rp1.500.000</td>
+                    <td>Optimalisasi situs web agar muncul di halaman pertama Google.</td>
+                </tr>
+                <tr>
+                    <td>Konsultasi IT</td>
+                    <td>Rp1.000.000</td>
+                    <td>Memberikan konsultasi tentang pengembangan dan strategi IT.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Section 5: Formulir Kontak -->
+    <section id="contact" class="content">
+        <h2>Hubungi Kami</h2>
+        <form action="#" method="post">
+            <label for="name">Nama Lengkap:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Nomor Telepon:</label>
+            <input type="number" id="phone" name="phone" required>
+
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Kirim Pesan">
+        </form>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2024 Tugas HTML - Semua Hak Dilindungi</p>
+</footer>
+<!-- Section 6: Testimonial -->
+<section class="content">
+    <h2>Testimonial</h2>
+    <div class="testimonial">
+        <blockquote>
+            "Layanan yang sangat profesional dan membantu pengembangan bisnis kami. Kami sangat merekomendasikan jasa mereka!"
+        </blockquote>
+        <cite>- John Doe, CEO Perusahaan XYZ</cite>
+    </div>
+    <div class="testimonial">
+        <blockquote>
+            "Desain web yang luar biasa! Tim mereka bekerja cepat dan memberikan hasil yang memuaskan."
+        </blockquote>
+        <cite>- Jane Smith, Founder ABC Studio</cite>
+    </div>
+</section>
+
+</body>
+</html>

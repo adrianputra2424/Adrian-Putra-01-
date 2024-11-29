@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #350dc7;
+}
+
+dialog {
+    width: calc(100% - 1em);
+    max-width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 0.5em;
+    text-align: center;
+    padding: 0.8em 1.5em 1em;
+}
+
+dialog h2 {
+    margin-bottom: 0.5em;
+    color: #111;    
+}
+
+dialog p {
+    margin-bottom: 1.25em;
+    color: #555;
+    padding: 0 0.5em;
+    font-size: 15px;
+}
+
+.control {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    margin-bottom: 0.5em;
+}
+
+.control button {
+    padding: 0.75em;
+    cursor: pointer;
+    background: #00acee;
+    outline: none;
+    border: 1px solid #00acee;
+    border-radius: 5px;
+    color: #ddd;
+    font-size: 0.9em;
+}
+
+.control button.IYA-btn {
+    background: transparent;
+    color: #00acee;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Halaman Login</title>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Welcome silahkan login</h2>
+        <h2></h2>
+        <form id="loginForm" onsubmit="return confirmLogin()">
+            <label for="username">Username:</label>
+            <input type="text" id="Username" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="Password" required>
+            
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <p>Apakah Anda Ingin Login?</p>
+            <button onclick="submitForm()">Ya</button>
+            <button onclick="closePopup()">Tidak</button>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

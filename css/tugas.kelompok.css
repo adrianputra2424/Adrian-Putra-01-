@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "poppins", sans-serif;
+  background-color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.header {
+  background-image: url(images.jpg);
+  padding: 5px;
+  text-align: center;
+  height: 300px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 60px;
+  background: rgb(191,98,183);
+  background: linear-gradient(90deg, 
+  rgba(191,98,183,1) 32%, 
+  rgba(160,99,203,1) 66%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+  padding: 10px 0;
+  line-height: 1;
+}
+
+.header p {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px 0;
+  line-height: 1;
+}
+
+.container {
+  max-width: 1500px;
+  margin: -150px auto;
+  background-color: #2a2a2a;
+  padding: 20px 20px 20px;
+  border-radius: 20px;
+  max-height: -2000px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.profile-picture img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #555;
+}
+
+.profile-info {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.profile-info h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.profile-info p {
+  margin: 10px 0 0;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.milih {
+  margin-left: 10px;
+  border: 2px solid #708090;
+  padding: 10px 10px;
+  border-radius: 10px;
+  background-color: #2a2a2a;
+  color: #fff;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate; /* Mengubah dari collapse ke separate untuk memungkinkan border-spacing */
+  background-color: #222;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-spacing: 12px; /* Menambahkan jarak antar sel tabel */
+}
+
+td {
+  padding: 15px;
+  border: 1px solid #444;
+  text-align: left;
+  border-radius: 10px; /* Menambahkan border-radius untuk sudut sel yang lebih halus */
+  transition-property: background-color;
+  transition-duration: 300ms;
+}
+
+td:hover {
+  background-color: rgba(192, 192, 192, 0.6);
+}
+
+.keterangan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-bottom: 10px ; */
+}
+
+span{
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.list{
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  font-size: 12px;
+  display: flex;
+}
+
+.milih img {
+  display: flex;
+  flex-direction: row;
+}
+
+/* #pemilihan-bahasa option {
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 20px;
+}
+
+#pemilihan-bahasa option[value="indonesia"] {
+  background-image: url(indonesia.jpg);
+} */

@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+
+#hasil-output {
+    border-color: aquamarine;
+    height: 300px;
+    width: 250px;
+    border-style: solid;
+    padding: 5px 5px 5px 5px; 
+    margin: 0 auto;
+}
+
+p{
+    text-align: left;
+}
